@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Calculate badminton fee Tool</title>
+		<title>Calculate Badminton Fee Tool</title>
 		<meta name="description" content="1.Copy line Sign up datas.2.Paste the datas in tool" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Cache-Control" content="max-age=31536000">
@@ -14,11 +14,6 @@
 				padding: 20px;
 				text-align: center;
 			}
-
-			span {
-				margin-top: 0;
-			}
-
 			.container {
 				display: flex;
 				flex-direction: column;
@@ -40,11 +35,12 @@
 			.area1 {
 				overflow: hidden;
 				height: 22px;
-				margin: 10px 0;
-				font-size: 14px;
+				font-size: 16px;
 				border: 1px solid #ccc;
 				resize: none;
-				width: 82px;
+				width: 84px;
+			  float: left;
+			  margin-bottom: 5px;
 			}
 
 			.button {
@@ -85,7 +81,7 @@
 			<div style="width: 98%">
 				<textarea class="area1" placeholder="TotalHours"
 					oninput="this.value = this.value.replace(/[^0-9.]/g, '')" id="txtHours">6.5</textarea>
-				<textarea style="margin-left: 5px;margin-right: 5px;" class="area1" placeholder="HourlyPrice"
+				<textarea style="margin-left: 5px;margin-right: 5px;" class="area1" placeholder="1Hour Price"
 					oninput="this.value = this.value.replace(/\D/g, '')" id="txtPrice">100</textarea>
 				<textarea class="area1" placeholder="Ball fee" oninput="this.value = this.value.replace(/\D/g, '')"
 					id="txtBallFee">10</textarea>
